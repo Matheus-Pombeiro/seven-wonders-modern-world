@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <header
             className="w-full h-16 px-3 bg-white flex flex-row justify-between items-center 
-            border-b border-b-orange-400 shadow-sm"
+            border-b border-b-orange-50 shadow-sm"
         >
             {/* Logo */}
             <figure
