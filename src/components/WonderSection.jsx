@@ -4,19 +4,20 @@ const WonderSection = ({ name, location,
 
     return (
         <section
-            className="xl:w-4/6 mx-auto mt-10 py-8 px-7 bg-white border border-blue-50 shadow
-            rounded-md"
+            className="w-11/12 md:w-10/12 xl:w-4/6 mx-auto mt-10 py-4 xl:py-8 px-2 xl:px-7 bg-white border
+            border-blue-50 shadow rounded-md"
         >
             {/* Wonder name */}
             <h2
-                className="w-5/6 mx-auto text-xl font-medium"
+                className="w-11/12 xl:w-5/6 mx-auto text-xl font-medium transition-colors duration-500 ease-in-out
+                decoration-transparent hover:underline hover:decoration-blue-500 hover:decoration-2"
             >
                 {name}
             </h2>
 
             {/* Wonder image */}
             <figure
-                className="w-7/12 mx-auto mt-6"
+                className="w-11/12 md:w-8/12 xl:w-7/12 mx-auto mt-6"
             >
                 <img 
                     src={imageUrl} 
@@ -27,17 +28,17 @@ const WonderSection = ({ name, location,
 
             {/* Wonder description */}
             <p
-                className="w-5/6 mx-auto mt-6 indent-5 text-justify"
+                className="w-11/12 xl:w-5/6 mx-auto mt-6 indent-5 text-justify"
             >
                 {description}
             </p>
 
             {/* Wonder curiosities */}
             <div
-                className="w-5/6 mx-auto mt-6"
+                className="w-11/12 xl:w-5/6 mx-auto mt-6 space-y-1"
             >
                 <h3
-                    className="text-lg font-medium space-y-6"
+                    className="text-lg font-medium"
                 >
                     Curiosities
                 </h3>
