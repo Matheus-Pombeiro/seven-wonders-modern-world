@@ -11,7 +11,7 @@ const Main = () => {
             <h1
                 className="px-14 text-2xl text-center font-semibold tracking-wide"
             >
-                7 <strong
+                The 7 <strong
                     className="text-blue-500"
                 >
                     Wonders
@@ -33,7 +33,7 @@ const Main = () => {
                     />
                     {wonder.id < 7 
                     ? <hr
-                        className="w-9/12 mt-10 mx-auto border border-blue-100"
+                        className="w-10/12 md:w-9/12 xl:w-7/12 mt-10 mx-auto border border-blue-100"
                     /> 
                     : null}
                 </div>
