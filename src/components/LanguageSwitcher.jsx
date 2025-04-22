@@ -10,7 +10,6 @@ const LanguageSwitcher = ({ isDarkMode }) => {
     // Checking if there is a language saved in the localStorage and updating the current language
     useEffect(() => {
         const storedLanguage = localStorage.getItem("language");
-        console.log("Língua armazenada:", storedLanguage);
         if (storedLanguage) {
             setTimeout(() => {
                 i18n.changeLanguage(storedLanguage);
