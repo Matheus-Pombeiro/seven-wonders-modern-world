@@ -1,16 +1,38 @@
-import ImageButton from "./ImageButton"
+import { useState, useEffect } from "react";
+
 import LanguageSwitcher from "./LanguageSwitcher";
+import ThemeSwitcher from "./ThemeSwitcher";
 
 const Header = () => {
-    // Button settings
-    const btnSet = {
-        size: 40
+    const [isDark, setIsDark] = useState(false); // The app's theme is light by default 
+
+    // When assembling the component, check if there is a theme saved in localStorage
+    useEffect(() => {
+        const storedTheme = localStorage.getItem("theme");
+        if (storedTheme === "dark") {
+            document.documentElement.classList.add("dark");
+            setIsDark(true);
+        }
+    }, []);
+
+    
+    const handleThemeChange = (darkTheme) => {
+        setIsDark(darkTheme);   // Updating the Header theme state
+
+        // Updating the class in the HTML and saving the user preferences in the localStorage
+        if (darkTheme) {
+            document.documentElement.classList.add("dark");
+            localStorage.setItem("theme", "dark");
+        } else {
+            document.documentElement.classList.remove("dark");
+            localStorage.setItem("theme", "light");
+        }
     };
 
     return (
         <header
-            className="w-full h-16 px-3 bg-white flex flex-row justify-between items-center 
-            border-b border-b-orange-100 shadow-sm"
+            className="w-full h-16 px-3 bg-white dark:bg-neutral-700 flex flex-row justify-between items-center 
+            border-b border-orange-100 dark:border-neutral-900 shadow-sm"
         >
             {/* Logo */}
             <figure
@@ -22,7 +44,7 @@ const Header = () => {
                     alt="Logo" 
                 />
                 <figcaption
-                    className="text-xl font-medium tracking-wider"
+                    className="text-xl font-medium tracking-wider dark:text-white"
                 >
                     7WMW
                 </figcaption>
@@ -33,12 +55,14 @@ const Header = () => {
                 className="flex flew-row justify-between items-center gap-2"
             >
                 {/* Flags */}
-                <LanguageSwitcher btnSet={btnSet} />             
+                <LanguageSwitcher 
+                    isDarkMode={isDark} 
+                />             
 
                 {/* Theme */}
-                <ImageButton 
-                    src="./src/assets/icons/sun.png" 
-                    alt="Theme" 
+                <ThemeSwitcher 
+                    onThemeChange={handleThemeChange}
+                    initialTheme={isDark}
                 />
             </div>
         </header>
