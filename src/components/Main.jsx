@@ -1,7 +1,9 @@
 import wonders from "../assets/data/wonders.json";
 import WonderSection from "./WonderSection";
+import { useTranslation } from "react-i18next";
 
 const Main = () => {
+    const { t } = useTranslation();
 
     return (
         <main
@@ -11,11 +13,11 @@ const Main = () => {
             <h1
                 className="px-14 text-2xl text-center font-semibold tracking-wide"
             >
-                The 7 <strong
+                {t("main.title.partOne")} <strong
                     className="text-blue-500"
                 >
-                    Wonders
-                </strong> of the Modern World
+                    {t("main.title.partTwo")}
+                </strong> {t("main.title.partThree")}
             </h1>
 
             {wonders.map((wonder, index) => (
@@ -23,15 +25,16 @@ const Main = () => {
                     key={index}
                     className="w-full"
                 >
-                    <WonderSection
-                        name={wonder.name}
-                        location={wonder.location}
+                     <WonderSection
+                        name={t(`wonders.${wonder.name.replace(/ /g, '')}.name`)}
+                        location={t(`wonders.${wonder.name.replace(/ /g, '')}.location`)}
                         imageUrl={wonder.imageUrl}
-                        annualVisitorsAverage={wonder.annualVisitorsAverage}
-                        inaugurationDate={wonder.inaugurationDate}
-                        description={wonder.description}
+                        annualVisitorsAverage={t(`wonders.${wonder.name.replace(/ /g, '')}.annualVisitorsAverage`)}
+                        inaugurationDate={t(`wonders.${wonder.name.replace(/ /g, '')}.inaugurationDate`)}
+                        description={t(`wonders.${wonder.name.replace(/ /g, '')}.description`)}
                     />
-                    {wonder.id < 7 
+                    
+                    {wonder.id < wonders.length
                     ? <hr
                         className="w-10/12 md:w-9/12 xl:w-7/12 mt-10 mx-auto border border-blue-100"
                     /> 

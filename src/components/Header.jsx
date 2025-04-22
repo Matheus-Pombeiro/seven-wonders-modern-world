@@ -1,6 +1,11 @@
 import ImageButton from "./ImageButton"
+import LanguageSwitcher from "./LanguageSwitcher";
 
 const Header = () => {
+    // Button settings
+    const btnSet = {
+        size: 40
+    };
 
     return (
         <header
@@ -28,14 +33,7 @@ const Header = () => {
                 className="flex flew-row justify-between items-center gap-2"
             >
                 {/* Flags */}
-                <ImageButton 
-                    src="./src/assets/icons/brazil-flag.png" 
-                    alt="Brazil flag" 
-                />
-                <ImageButton 
-                    src="./src/assets/icons/usa-flag.png" 
-                    alt="USA flag" 
-                />
+                <LanguageSwitcher btnSet={btnSet} />             
 
                 {/* Theme */}
                 <ImageButton 

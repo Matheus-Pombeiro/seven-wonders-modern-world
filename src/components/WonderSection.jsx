@@ -1,6 +1,10 @@
+import { useTranslation } from "react-i18next";
+
 const WonderSection = ({ name, location, 
     imageUrl, annualVisitorsAverage, 
     inaugurationDate, description }) => {
+
+    const { t } = useTranslation();
 
     return (
         <section
@@ -40,11 +44,11 @@ const WonderSection = ({ name, location,
                 <h3
                     className="text-lg font-medium"
                 >
-                    Curiosities
+                    {t("wondersSection.curiosities")}
                 </h3>
-                <p>Location: {location}</p>
-                <p>Annual Visitors Average: {annualVisitorsAverage}</p>
-                <p>Inauguration Date: {inaugurationDate}</p>
+                <p>{t("wondersSection.location")} {location}</p>
+                <p>{t("wondersSection.annualVisitorsAverage")} {annualVisitorsAverage}</p>
+                <p>{t("wondersSection.inaugurationDate")} {inaugurationDate}</p>
             </div>
         </section>
     )
