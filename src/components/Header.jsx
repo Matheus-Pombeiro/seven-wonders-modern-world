@@ -3,6 +3,8 @@ import { useState, useEffect } from "react";
 import LanguageSwitcher from "./LanguageSwitcher";
 import ThemeSwitcher from "./ThemeSwitcher";
 
+import { TiCompass } from "react-icons/ti";
+
 const Header = () => {
     const [isDark, setIsDark] = useState(false); // The app's theme is light by default 
 
@@ -29,6 +31,14 @@ const Header = () => {
         }
     };
 
+    // Setting the default icon color
+    const defaultIconColor = isDark ? "white" : "black";
+
+    // Button settings
+    const setBtn = {
+        size: 40,
+    };
+
     return (
         <header
             className="w-full h-16 px-3 bg-white dark:bg-neutral-700 flex flex-row justify-between items-center 
@@ -38,10 +48,9 @@ const Header = () => {
             <figure
                 className="flex flew-row justify-between items-center gap-1"
             >
-                <img 
-                    className="size-16 xl:size-14"
-                    src="../src/assets/icons/compass-logo.png" 
-                    alt="Logo" 
+                <TiCompass {...setBtn} 
+                    {...setBtn}
+                    color={defaultIconColor}
                 />
                 <figcaption
                     className="text-xl font-medium tracking-wider dark:text-white"
