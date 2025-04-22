@@ -1,0 +1,69 @@
+{
+    "header": {
+        "appName": "7WMW"
+    },
+    "main": {
+        "title": {
+            "partOne": "As 7 ",
+            "partTwo": "Maravilhas ",
+            "partThree": "do Mundo Moderno"
+        }
+    },
+    "wonders": {
+        "TheGreatWallofChina": {
+            "name": "A Grande Muralha da China",
+            "location": "China",
+            "annualVisitorsAverage": "10.000.000",
+            "inaugurationDate": "Século VII a.C. – século XVII d.C. (período de construção)",
+            "description": "A Grande Muralha da China é uma série de fortificações construídas ao longo das fronteiras históricas ao norte dos antigos estados chineses e da China Imperial como proteção contra grupos nômades da Estepe Eurasiática. Diversas muralhas foram construídas já no século VII a.C., sendo posteriormente unidas para se tornarem maiores e mais resistentes. É a maior estrutura artificial do mundo, com um comprimento total de mais de 21.196 quilômetros (13.171 milhas)."
+        },
+        "ChristtheRedeemer": {
+            "name": "Cristo Redentor",
+            "location": "Rio de Janeiro, Brasil",
+            "annualVisitorsAverage": "2.000.000",
+            "inaugurationDate": "12 de outubro de 1931",
+            "description": "O Cristo Redentor é uma estátua Art Déco de Jesus Cristo no Rio de Janeiro, Brasil, criada pelo escultor francês Paul Landowski e construída pelo engenheiro brasileiro Heitor da Silva Costa, em colaboração com o engenheiro francês Albert Caquot. Tem 30 metros de altura, sem contar o pedestal de 8 metros, e seus braços se estendem por 28 metros de largura. A estátua pesa 635 toneladas métricas (625 de comprimento e 700 de altura) e está localizada no pico do Corcovado, a 700 metros de altura, no Parque Nacional da Tijuca, com vista para a cidade."
+        },
+        "MachuPicchu": {
+            "name": "Machu Picchu",
+            "location": "Machu Picchu, Peru",
+            "annualVisitorsAverage": "1.500.000",
+            "inaugurationDate": "c. 1450 d.C.",
+            "description": "Machu Picchu é uma antiga cidadela inca situada no alto da Cordilheira dos Andes, no Peru, acima do vale do Rio Urubamba. Construída no século XV e posteriormente abandonada, é famosa por seus sofisticados muros de pedra seca que fundem imensos blocos sem o uso de argamassa, construções intrigantes que brincam com alinhamentos astronômicos e vistas panorâmicas. Seu uso anterior exato permanece um mistério."
+        },
+        "ChichénItzá": {
+            "name": "Chichén Itzá",
+            "location": "Yucatán, México",
+            "annualVisitorsAverage": "2.600.000",
+            "inaugurationDate": "c. 600 d.C.",
+            "description": "Chichén Itzá foi uma grande cidade pré-colombiana construída pela civilização maia, localizada no atual município de Tinúm, estado de Yucatán, México. Foi uma das maiores cidades maias e provavelmente uma das mais importantes no final do período Clássico Terminal (c. 800-900 d.C.). O sítio arqueológico exibe uma variedade de estilos arquitetônicos, que lembram os encontrados no México central e os estilos Puuc e Chenes das terras baixas maias do norte."
+        },
+        "Colosseum": {
+            "name": "Coliseu",
+            "location": "Roma, Itália",
+            "annualVisitorsAverage": "7.600.000",
+            "inaugurationDate": "80 d.C.",
+            "description": "O Coliseu é um anfiteatro oval no centro da cidade de Roma, Itália, a leste do Fórum Romano. É o maior anfiteatro antigo já construído e, apesar de sua idade, continua sendo o maior anfiteatro em pé do mundo. Sua construção começou sob o imperador Vespasiano em 72 d.C. e foi concluída por seu filho Tito em 80 d.C. Estima-se que sua capacidade fosse de 50.000 a 80.000 espectadores."
+        },
+        "Petra": {
+            "name": "Petra",
+            "location": "Província de Ma'an, Jordânia",
+            "annualVisitorsAverage": "1.000.000",
+            "inaugurationDate": "c. século IV a.C.",
+            "description": "Petra é uma cidade histórica e arqueológica no sul da Jordânia. A cidade é famosa por sua arquitetura escavada na rocha e seu sistema de condutos de água. Outro nome para Petra é Cidade das Rosas, devido à cor da pedra na qual é esculpida. Fundada possivelmente em 312 a.C. como capital dos nabateus, é um símbolo da Jordânia, bem como sua atração turística mais visitada."
+        },
+        "TajMahal": {
+            "name": "Taj Mahal",
+            "location": "Agra, Índia",
+            "annualVisitorsAverage": "7.000.000",
+            "inaugurationDate": "1643 d.C.",
+            "description": "O Taj Mahal é um mausoléu de mármore branco-marfim localizado na margem direita do rio Yamuna, na cidade indiana de Agra. Foi encomendado em 1632 pelo imperador mogol Xá Jahan (reinou de 1628 a 1658) para abrigar o túmulo de sua esposa favorita, Mumtaz Mahal. Abriga também o túmulo do próprio Xá Jahan. O túmulo é a peça central de um complexo de 17 hectares, que inclui uma mesquita e uma casa de hóspedes, e está situado em jardins formais delimitados em três lados por um muro com ameias."
+        }
+    },
+    "wondersSection": {
+        "curiosities": "Curiosidades",
+        "location": "Localidade: ",
+        "annualVisitorsAverage": "Média Anual de Visitantes: ",
+        "inaugurationDate": "Data de Inauguração: "
+    }
+}
