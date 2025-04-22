@@ -6,16 +6,16 @@ const Footer = () => {
     
     return (
         <footer
-            className="w-full h-14 flex justify-center items-center bg-white border-t 
-            border-orange-100"
+            className="w-full h-14 flex justify-center items-center bg-white dark:bg-neutral-700 
+            border-t border-orange-100 dark:border-neutral-900 dark:text-white"
         >
             <p
                 className="w-fit text-xl"
             >
-                {year} | <a className="font-medium hover:underline"
+                <a className="font-medium hover:underline"
                 href="https://www.linkedin.com/in/matheus-pombeiro/"
                 target="_blank" rel="noopener noreferrer">
-                Matheus Pombeiro</a>
+                Matheus Pombeiro</a> | {year}
             </p>
         </footer>
     )

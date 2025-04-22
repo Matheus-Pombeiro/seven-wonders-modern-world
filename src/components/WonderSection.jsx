@@ -8,8 +8,9 @@ const WonderSection = ({ name, location,
 
     return (
         <section
-            className="w-11/12 md:w-10/12 xl:w-4/6 mx-auto mt-10 py-4 xl:py-8 px-2 xl:px-7 bg-white border
-            border-blue-50 shadow rounded-md"
+            className="w-11/12 md:w-10/12 xl:w-4/6 mx-auto mt-10 py-4 xl:py-8 px-2 xl:px-7 bg-white 
+            dark:bg-neutral-600 border border-blue-50 dark:border-neutral-900 shadow rounded-md
+            dark:text-white"
         >
             {/* Wonder name */}
             <h2

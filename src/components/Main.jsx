@@ -7,11 +7,11 @@ const Main = () => {
 
     return (
         <main
-            className="w-full py-12 lg:py-20 xl:py-24 bg-gray-100"
+            className="w-full py-12 lg:py-20 xl:py-24 bg-gray-100 dark:bg-neutral-800"
         >
             {/* Main title */}
             <h1
-                className="px-14 text-2xl text-center font-semibold tracking-wide"
+                className="px-14 text-2xl text-center font-semibold tracking-wide dark:text-white"
             >
                 {t("main.title.partOne")} <strong
                     className="text-blue-500"
@@ -36,7 +36,8 @@ const Main = () => {
                     
                     {wonder.id < wonders.length
                     ? <hr
-                        className="w-10/12 md:w-9/12 xl:w-7/12 mt-10 mx-auto border border-blue-100"
+                        className="w-10/12 md:w-9/12 xl:w-7/12 mt-10 mx-auto border border-blue-100
+                        dark:border-blue-400"
                     /> 
                     : null}
                 </div>
