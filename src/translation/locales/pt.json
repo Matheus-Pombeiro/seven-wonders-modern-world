@@ -2,68 +2,154 @@
     "header": {
         "appName": "7WMW"
     },
-    "main": {
-        "title": {
-            "partOne": "As 7 ",
-            "partTwo": "Maravilhas ",
-            "partThree": "do Mundo Moderno"
-        }
+    "homePage": {
+        "title": "Descubra as Maravilhas Modernas",
+        "introduction": "Embarque em uma jornada para explorar as Sete Maravilhas do Mundo Moderno, maravilhas arquitetônicas que inspiram admiração e representam o auge da conquista humana...",
+        "explore": "Explore as Maravilhas:",
+        "learnMore": "Saiba Mais"
     },
-    "wonders": {
-        "TheGreatWallofChina": {
-            "name": "A Grande Muralha da China",
-            "location": "China",
-            "annualVisitorsAverage": "10.000.000",
-            "inaugurationDate": "Século VII a.C. – século XVII d.C. (período de construção)",
-            "description": "A Grande Muralha da China é uma série de fortificações construídas ao longo das fronteiras históricas ao norte dos antigos estados chineses e da China Imperial como proteção contra grupos nômades da Estepe Eurasiática. Diversas muralhas foram construídas já no século VII a.C., sendo posteriormente unidas para se tornarem maiores e mais resistentes. É a maior estrutura artificial do mundo, com um comprimento total de mais de 21.196 quilômetros (13.171 milhas)."
-        },
-        "ChristtheRedeemer": {
-            "name": "Cristo Redentor",
-            "location": "Rio de Janeiro, Brasil",
-            "annualVisitorsAverage": "2.000.000",
-            "inaugurationDate": "12 de outubro de 1931",
-            "description": "O Cristo Redentor é uma estátua Art Déco de Jesus Cristo no Rio de Janeiro, Brasil, criada pelo escultor francês Paul Landowski e construída pelo engenheiro brasileiro Heitor da Silva Costa, em colaboração com o engenheiro francês Albert Caquot. Tem 30 metros de altura, sem contar o pedestal de 8 metros, e seus braços se estendem por 28 metros de largura. A estátua pesa 635 toneladas métricas (625 de comprimento e 700 de altura) e está localizada no pico do Corcovado, a 700 metros de altura, no Parque Nacional da Tijuca, com vista para a cidade."
-        },
-        "MachuPicchu": {
-            "name": "Machu Picchu",
-            "location": "Machu Picchu, Peru",
-            "annualVisitorsAverage": "1.500.000",
-            "inaugurationDate": "c. 1450 d.C.",
-            "description": "Machu Picchu é uma antiga cidadela inca situada no alto da Cordilheira dos Andes, no Peru, acima do vale do Rio Urubamba. Construída no século XV e posteriormente abandonada, é famosa por seus sofisticados muros de pedra seca que fundem imensos blocos sem o uso de argamassa, construções intrigantes que brincam com alinhamentos astronômicos e vistas panorâmicas. Seu uso anterior exato permanece um mistério."
-        },
-        "ChichénItzá": {
-            "name": "Chichén Itzá",
-            "location": "Yucatán, México",
-            "annualVisitorsAverage": "2.600.000",
-            "inaugurationDate": "c. 600 d.C.",
-            "description": "Chichén Itzá foi uma grande cidade pré-colombiana construída pela civilização maia, localizada no atual município de Tinúm, estado de Yucatán, México. Foi uma das maiores cidades maias e provavelmente uma das mais importantes no final do período Clássico Terminal (c. 800-900 d.C.). O sítio arqueológico exibe uma variedade de estilos arquitetônicos, que lembram os encontrados no México central e os estilos Puuc e Chenes das terras baixas maias do norte."
-        },
-        "Colosseum": {
-            "name": "Coliseu",
-            "location": "Roma, Itália",
-            "annualVisitorsAverage": "7.600.000",
-            "inaugurationDate": "80 d.C.",
-            "description": "O Coliseu é um anfiteatro oval no centro da cidade de Roma, Itália, a leste do Fórum Romano. É o maior anfiteatro antigo já construído e, apesar de sua idade, continua sendo o maior anfiteatro em pé do mundo. Sua construção começou sob o imperador Vespasiano em 72 d.C. e foi concluída por seu filho Tito em 80 d.C. Estima-se que sua capacidade fosse de 50.000 a 80.000 espectadores."
-        },
-        "Petra": {
-            "name": "Petra",
-            "location": "Província de Ma'an, Jordânia",
-            "annualVisitorsAverage": "1.000.000",
-            "inaugurationDate": "c. século IV a.C.",
-            "description": "Petra é uma cidade histórica e arqueológica no sul da Jordânia. A cidade é famosa por sua arquitetura escavada na rocha e seu sistema de condutos de água. Outro nome para Petra é Cidade das Rosas, devido à cor da pedra na qual é esculpida. Fundada possivelmente em 312 a.C. como capital dos nabateus, é um símbolo da Jordânia, bem como sua atração turística mais visitada."
-        },
-        "TajMahal": {
-            "name": "Taj Mahal",
-            "location": "Agra, Índia",
-            "annualVisitorsAverage": "7.000.000",
-            "inaugurationDate": "1643 d.C.",
-            "description": "O Taj Mahal é um mausoléu de mármore branco-marfim localizado na margem direita do rio Yamuna, na cidade indiana de Agra. Foi encomendado em 1632 pelo imperador mogol Xá Jahan (reinou de 1628 a 1658) para abrigar o túmulo de sua esposa favorita, Mumtaz Mahal. Abriga também o túmulo do próprio Xá Jahan. O túmulo é a peça central de um complexo de 17 hectares, que inclui uma mesquita e uma casa de hóspedes, e está situado em jardins formais delimitados em três lados por um muro com ameias."
-        }
+    "wonderDetails": {
+    "notFound": "Maravilha Não Encontrada",
+    "notFoundDescription": "Desculpe, a maravilha que você procura não pôde ser encontrada.",
+    "details": "Detalhes",
+    "location": "Localização",
+    "annualVisitors": "Visitantes Anuais (Média)",
+    "inauguration": "Data de Inauguração",
+    "history": "História",
+    "interestingFacts": "Curiosidades",
+    "architecturalStyle": "Estilo Arquitetônico",
+    "timePeriod": "Período",
+    "creator": "Criador(es)/Construtores",
+    "materialsUsed": "Materiais Utilizados",
+    "dimensions": "Dimensões",
+    "return": "Retornar"
+  },
+  "wonders": {
+    "TheGreatWallofChina": {
+      "name": "A Grande Muralha da China",
+      "location": "China",
+      "annualVisitorsAverage": "10.000.000",
+      "inaugurationDate": "Século VII a.C. – Século XVII d.C. (período de construção)",
+      "description": "A Grande Muralha da China é uma série de fortificações que foram construídas ao longo das históricas fronteiras do norte dos antigos estados chineses e da China Imperial como proteção contra grupos nômades da estepe da Eurásia. Várias muralhas foram construídas já no século VII a.C., com muralhas posteriores unidas para se tornarem maiores e mais fortes. É a estrutura artificial mais longa do mundo, com um comprimento total de mais de 21.196 quilômetros (13.171 milhas).",
+      "history": "As seções mais antigas da Grande Muralha foram construídas já no século VII a.C. por vários reinos para proteger seus territórios. O primeiro imperador da China, Qin Shi Huang, unificou essas seções durante a Dinastia Qin (221–206 a.C.). A muralha foi continuamente construída e expandida por dinastias subsequentes ao longo dos séculos, principalmente a Dinastia Ming (1368–1644), responsável pelas seções mais visíveis e bem preservadas atualmente. Seu propósito principal evoluiu ao longo do tempo, de defesa a controle de fronteiras e poder simbólico.",
+      "interestingFacts": [
+        "Não é realmente visível do espaço a olho nu, um equívoco comum.",
+        "A argamassa usada em algumas partes da muralha durante a Dinastia Ming era feita com farinha de arroz glutinoso misturada com cal apagada.",
+        "Diferentes seções da muralha foram construídas usando materiais locais como taipa, pedra e tijolo."
+      ],
+      "architecturalStyle": "Principalmente arquitetura defensiva, com variações entre as dinastias.",
+      "timePeriod": "Múltiplos períodos do século VII a.C. ao século XVII d.C.",
+      "creator": "Vários estados e dinastias chinesas, incluindo as Dinastias Qin e Ming.",
+      "materialsUsed": "Pedra, tijolo, taipa, madeira.",
+      "dimensions": "Mais de 21.196 km (13.171 milhas) de comprimento total; altura varia de 7 a 16 metros (23 a 52 pés)."
     },
-    "wondersSection": {
-        "curiosities": "Curiosidades",
-        "location": "Localidade: ",
-        "annualVisitorsAverage": "Média Anual de Visitantes: ",
-        "inaugurationDate": "Data de Inauguração: "
+    "ChristtheRedeemer": {
+      "name": "Cristo Redentor",
+      "location": "Rio de Janeiro, Brasil",
+      "annualVisitorsAverage": "2.000.000",
+      "inaugurationDate": "12 de outubro de 1931",
+      "description": "O Cristo Redentor é uma estátua Art Déco de Jesus Cristo no Rio de Janeiro, Brasil, criada pelo escultor francês Paul Landowski e construída pelo engenheiro brasileiro Heitor da Silva Costa, em colaboração com o engenheiro francês Albert Caquot. Tem 30 metros (98 pés) de altura, sem incluir seu pedestal de 8 metros (26 pés), e seus braços se estendem por 28 metros (92 pés) de largura. A estátua pesa 635 toneladas métricas (625 toneladas longas, 700 toneladas curtas) e está localizada no pico do Morro do Corcovado, de 700 metros (2.300 pés) de altura, no Parque Nacional da Tijuca, com vista para a cidade.",
+      "history": "A ideia de uma grande estátua no Morro do Corcovado foi sugerida pela primeira vez em meados do século XIX, mas o projeto só foi realizado na década de 1920. A estátua pretendia ser um símbolo do cristianismo. O projeto de Landowski foi escolhido, e a construção foi um esforço colaborativo envolvendo engenheiros e artesãos da França e do Brasil. As camadas externas da estátua são feitas de pedra-sabão, escolhida por sua durabilidade e facilidade de escultura.",
+      "interestingFacts": [
+        "A estátua foi iluminada pela primeira vez no dia de sua inauguração por um sinal de rádio enviado por Guglielmo Marconi de Roma, Itália.",
+        "Ela foi atingida por raios várias vezes, causando pequenos danos que foram reparados.",
+        "Os braços da estátua foram projetados para se assemelharem a uma cruz, simbolizando a paz."
+      ],
+      "architecturalStyle": "Art Déco.",
+      "timePeriod": "1922–1931.",
+      "creator": "Paul Landowski (escultor), Heitor da Silva Costa (engenheiro), Albert Caquot (engenheiro).",
+      "materialsUsed": "Concreto armado, pedra-sabão.",
+      "dimensions": "30 metros (98 pés) de altura (excluindo o pedestal de 8 metros); braços com 28 metros (92 pés) de largura."
+    },
+    "MachuPicchu": {
+      "name": "Machu Picchu",
+      "location": "Machu Picchu, Peru",
+      "annualVisitorsAverage": "1.500.000",
+      "inaugurationDate": "c. 1450 d.C.",
+      "description": "Machu Picchu é uma antiga cidadela inca situada no alto da Cordilheira dos Andes, no Peru, acima do vale do rio Urubamba. Construída no século XV e posteriormente abandonada, é conhecida por suas sofisticadas paredes de pedra seca que fundem imensos blocos sem o uso de argamassa, edifícios intrigantes que exploram alinhamentos astronômicos e vistas panorâmicas. Seu uso anterior exato permanece um mistério.",
+      "history": "Machu Picchu foi construída no auge do Império Inca, por volta de 1450 d.C. Acredita-se que tenha sido uma propriedade real ou um local religioso sagrado. A cidade foi misteriosamente abandonada cerca de um século depois, na época da Conquista Espanhola. Permaneceu desconhecida para o mundo exterior até ser redescoberta pelo historiador americano Hiram Bingham em 1911.",
+      "interestingFacts": [
+        "Os incas eram mestres na arte de trabalhar a pedra, encaixando as pedras tão perfeitamente que nem mesmo a lâmina de uma faca caberia entre elas.",
+        "Machu Picchu está localizada em uma floresta nublada, um ambiente úmido de alta altitude com rica biodiversidade.",
+        "A pedra Intihuatana em Machu Picchu acredita-se ter servido como um calendário ou relógio astronômico."
+      ],
+      "architecturalStyle": "Arquitetura Inca.",
+      "timePeriod": "c. Século XV d.C.",
+      "creator": "Civilização Inca, provavelmente sob o governo de Pachacuti.",
+      "materialsUsed": "Granito.",
+      "dimensions": "Cobre uma área de aproximadamente 32,5 hectares (80 acres)."
+    },
+    "ChichénItzá": {
+      "name": "Chichén Itzá",
+      "location": "Yucatán, México",
+      "annualVisitorsAverage": "2.600.000",
+      "inaugurationDate": "c. 600 d.C.",
+      "description": "Chichén Itzá foi uma grande cidade pré-colombiana construída pela civilização maia localizada no atual município de Tinúm, estado de Yucatán, México. Foi uma das maiores cidades maias e provavelmente uma das grandes no final do período Clássico Terminal (c. 800–900 d.C.). O local exibe uma variedade de estilos arquitetônicos, reminiscente de estilos vistos no centro do México e dos estilos Puuc e Chenes das terras baixas do norte maia.",
+      "history": "Chichén Itzá foi fundada por volta do século VI d.C. e ascendeu à proeminência durante o período Clássico Terminal. Tornou-se um importante centro regional na Península de Yucatán. A cidade exibe influências de diferentes grupos maias e da cultura tolteca. A icônica pirâmide de Kukulkan provavelmente foi construída no século XII d.C. O local foi eventualmente abandonado, embora as razões exatas sejam debatidas.",
+      "interestingFacts": [
+        "Durante os equinócios de primavera e outono, o sol poente projeta sombras na pirâmide de Kukulkan que se assemelham a uma serpente deslizando pela escadaria norte.",
+        "O Grande Campo de Bola em Chichén Itzá é o maior conhecido nas Américas.",
+        "A cidade possuía um conhecimento avançado de astronomia e matemática, evidente em sua arquitetura."
+      ],
+      "architecturalStyle": "Arquitetura maia com influências toltecas.",
+      "timePeriod": "c. Séculos VI a XII d.C.",
+      "creator": "Civilização maia, com influências toltecas posteriores.",
+      "materialsUsed": "Calcário.",
+      "dimensions": "Cobre uma área de aproximadamente 10 quilômetros quadrados (4 milhas quadradas)."
+    },
+    "Colosseum": {
+      "name": "Coliseu",
+      "location": "Roma, Itália",
+      "annualVisitorsAverage": "7.600.000",
+      "inaugurationDate": "80 d.C.",
+      "description": "O Coliseu é um anfiteatro oval no centro da cidade de Roma, Itália, a leste do Fórum Romano. É o maior anfiteatro antigo já construído e ainda é o maior anfiteatro em pé do mundo, apesar de sua idade. A construção começou sob o imperador Vespasiano em 72 d.C. e foi concluída por seu filho Tito em 80 d.C. Era capaz de acomodar cerca de 50.000 a 80.000 espectadores.",
+      "history": "A construção do Coliseu começou sob o imperador Vespasiano da dinastia flaviana em 72 d.C. e foi concluída por seu filho Tito em 80 d.C. Era usado para combates de gladiadores e espetáculos públicos, como batalhas navais simuladas, caça de animais, execuções, reconstituições de batalhas famosas e dramas baseados na mitologia clássica. Permaneceu em uso por quase 500 anos, com os últimos jogos registrados realizados no século VI d.C. Sofreu danos causados por terremotos e saques ao longo dos séculos.",
+      "interestingFacts": [
+        "O Coliseu possuía um sistema complexo de túneis e jaulas subterrâneas chamado hipogeu, usado para abrigar animais e gladiadores.",
+        "Um toldo retrátil chamado velário podia ser implantado para fornecer sombra aos espectadores.",
+        "Originalmente era conhecido como Anfiteatro Flaviano."
+      ],
+      "architecturalStyle": "Arquitetura imperial romana.",
+      "timePeriod": "72–80 d.C.",
+      "creator": "Comissionado pelo imperador Vespasiano, concluído pelo imperador Tito.",
+      "materialsUsed": "Travertino, tufo vulcânico, concreto revestido de tijolos.",
+      "dimensions": "189 metros (620 pés) de comprimento, 156 metros (512 pés) de largura, 48 metros (157 pés) de altura."
+    },
+    "Petra": {
+      "name": "Petra",
+      "location": "Ma'an, Jordânia",
+      "annualVisitorsAverage": "1.000.000",
+      "inaugurationDate": "c. Século IV a.C.",
+      "description": "Petra é uma cidade histórica e arqueológica no sul da Jordânia. A cidade é famosa por sua arquitetura esculpida em rocha e sistema de condução de água. Outro nome para Petra é a Cidade Rosa devido à cor da pedra da qual é esculpida. Estabelecida possivelmente já em 312 a.C. como a capital dos nabateus, é um símbolo da Jordânia, bem como sua atração turística mais visitada.",
+      "history": "Petra foi estabelecida possivelmente já no século IV a.C. pelos árabes nabateus, um povo nômade que se estabeleceu na área. Tornou-se um centro comercial crucial devido à sua localização estratégica nas rotas de caravanas que ligavam a Arábia, o Egito e o Mediterrâneo. A cidade floresceu sob o domínio nabateu até ser anexada pelo Império Romano em 106 d.C. Declinou em importância e acabou sendo perdida para o mundo ocidental por séculos, até sua redescoberta em 1812 pelo explorador suíço Johann Ludwig Burckhardt.",
+      "interestingFacts": [
+        "O sofisticado sistema de água de Petra permitiu um extenso assentamento em uma região seca.",
+        "A estrutura mais famosa, Al-Khazneh (O Tesouro), acredita-se ter sido um túmulo real.",
+        "A arquitetura da cidade esculpida em rocha está notavelmente preservada devido ao clima seco."
+      ],
+      "architecturalStyle": "Arquitetura nabateia com influências helenísticas e romanas.",
+      "timePeriod": "c. Século IV a.C. ao século I d.C. (auge do período nabateu).",
+      "creator": "Civilização nabateia.",
+      "materialsUsed": "Arenito.",
+      "dimensions": "Cobre uma vasta área com estruturas de tamanhos variados esculpidas na rocha."
+    },
+    "TajMahal": {
+      "name": "Taj Mahal",
+      "location": "Agra, Índia",
+      "annualVisitorsAverage": "7.000.000",
+      "inaugurationDate": "1643 d.C.",
+      "description": "O Taj Mahal é um mausoléu de mármore branco-marfim na margem direita do rio Yamuna, na cidade indiana de Agra. Foi encomendado em 1632 pelo imperador mogol Shah Jahan (reinou de 1628 a 1658) para abrigar o túmulo de sua esposa favorita, Mumtaz Mahal. Também abriga o túmulo do próprio Shah Jahan. O túmulo é a peça central de um complexo de 17 hectares (42 acres), que inclui uma mesquita e uma casa de hóspedes, e está situado em jardins formais delimitados em três lados por uma muralha com ameias.",
+      "history": "O Taj Mahal foi encomendado em 1632 pelo imperador mogol Shah Jahan para abrigar os restos mortais de sua amada esposa, Mumtaz Mahal, que morreu em 1631. A construção levou aproximadamente 22 anos e envolveu milhares de artesãos e artífices da Índia, Pérsia e outras partes da Ásia. O complexo foi concluído em 1643, embora o trabalho em outras fases tenha continuado por vários anos. É considerado o melhor exemplo da arquitetura mogol, um estilo que combina elementos dos estilos arquitetônicos persa, islâmico e indiano.",
+      "interestingFacts": [
+        "A cor do Taj Mahal parece mudar em diferentes horas do dia devido à reflexão da luz solar.",
+        "Segundo a lenda, Shah Jahan pretendia construir uma réplica de mármore preto do Taj Mahal do outro lado do rio, mas não conseguiu fazê-lo.",
+        "O intrincado trabalho de incrustação no mármore é feito com pedras preciosas e semipreciosas."
+      ],
+      "architecturalStyle": "Arquitetura mogol.",
+      "timePeriod": "1632–1643 d.C.",
+      "creator": "Comissionado pelo imperador mogol Shah Jahan.",
+      "materialsUsed": "Mármore branco, pedras preciosas e semipreciosas.",
+      "dimensions": "A cúpula central tem 35 metros (115 pés) de altura; todo o complexo cobre 17 hectares (42 acres)."
     }
+  }
 }

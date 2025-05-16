@@ -2,12 +2,27 @@
     "header": {
         "appName": "7WMW"
     },
-    "main": {
-        "title": {
-            "partOne": "The 7 ",
-            "partTwo": "Wonders ",
-            "partThree": "of the Modern World"
-        }
+    "homePage": {
+        "title": "Discover the Modern Wonders",
+        "introduction": "Embark on a journey to explore the Seven Wonders of the Modern World, architectural marvels that inspire awe and represent the pinnacle of human achievement...",
+        "explore": "Explore the Wonders:",
+        "learnMore": "Learn More"
+    },
+    "wonderDetails": {
+        "notFound": "Wonder Not Found",
+        "notFoundDescription": "Sorry, the wonder you are looking for could not be found.",
+        "details": "Details",
+        "location": "Location",
+        "annualVisitors": "Annual Visitors (Average)",
+        "inauguration": "Inauguration Date",
+        "history": "History",
+        "interestingFacts": "Interesting Facts",
+        "architecturalStyle": "Architectural Style",
+        "timePeriod": "Time Period",
+        "creator": "Creator/Builders",
+        "materialsUsed": "Materials Used",
+        "dimensions": "Dimensions",
+        "return": "Return"
     },
     "wonders": {
         "TheGreatWallofChina": {
@@ -15,55 +30,126 @@
             "location": "China",
             "annualVisitorsAverage": "10,000,000",
             "inaugurationDate": "7th century BC – 17th century AD (construction period)",
-            "description": "The Great Wall of China is a series of fortifications that were built across the historical northern borders of ancient Chinese states and Imperial China as protection against nomadic groups from the Eurasian Steppe. Several walls were being built as early as the 7th century BC, with later walls joined together to become bigger and stronger. It is the longest artificial structure in the world, with a total length of over 21,196 kilometers (13,171 miles)."
+            "description": "The Great Wall of China is a series of fortifications that were built across the historical northern borders of ancient Chinese states and Imperial China as protection against nomadic groups from the Eurasian Steppe. Several walls were being built as early as the 7th century BC, with later walls joined together to become bigger and stronger. It is the longest artificial structure in the world, with a total length of over 21,196 kilometers (13,171 miles).",
+            "history": "The earliest sections of the Great Wall were built as early as the 7th century BC by various kingdoms. Qin Shi Huang unified these sections during the Qin Dynasty (221–206 BC). Subsequent dynasties, especially the Ming Dynasty (1368–1644), significantly expanded and reinforced it.",
+            "interestingFacts": [
+                "A common misconception is that it's visible from space with the naked eye.",
+                "Sticky rice flour was used in the mortar for some sections during the Ming Dynasty.",
+                "Different sections used local materials like rammed earth, stone, and brick."
+            ],
+            "architecturalStyle": "Primarily defensive architecture, with variations across dynasties.",
+            "timePeriod": "Multiple periods from the 7th century BC to the 17th century AD.",
+            "creator": "Various Chinese states and dynasties, including the Qin and Ming Dynasties.",
+            "materialsUsed": "Stone, brick, rammed earth, wood.",
+            "dimensions": "Over 21,196 km (13,171 miles) in total length; height varies from 7 to 16 meters (23 to 52 feet)."
         },
         "ChristtheRedeemer": {
             "name": "Christ the Redeemer",
             "location": "Rio de Janeiro, Brazil",
             "annualVisitorsAverage": "2,000,000",
             "inaugurationDate": "October 12, 1931",
-            "description": "Christ the Redeemer is an Art Deco statue of Jesus Christ in Rio de Janeiro, Brazil, created by French sculptor Paul Landowski and built by the Brazilian engineer Heitor da Silva Costa, in collaboration with the French engineer Albert Caquot. It is 30 metres (98 ft) tall, not including its 8-metre (26 ft) pedestal, and its arms stretch 28 metres (92 ft) wide. The statue weighs 635 metric tons (625 long, 700 short tons), and is located at the peak of the 700-metre (2,300 ft) Corcovado mountain in the Tijuca National Park overlooking the city."
+            "description": "Christ the Redeemer is an Art Deco statue of Jesus Christ in Rio de Janeiro, Brazil, created by French sculptor Paul Landowski and built by the Brazilian engineer Heitor da Silva Costa, in collaboration with the French engineer Albert Caquot. It stands atop Corcovado Mountain, overlooking the city.",
+            "history": "The idea for a religious monument on Corcovado Mountain dates back to the mid-19th century. The project was finally approved and construction began in the 1920s, funded by private donations. It was intended as a symbol of peace and Christianity.",
+            "interestingFacts": [
+                "It was illuminated by a radio signal sent from Rome on its inauguration day.",
+                "The outer layer is made of soapstone, chosen for its durability and workability.",
+                "Its arms span 28 meters (92 feet)."
+            ],
+            "architecturalStyle": "Art Deco.",
+            "timePeriod": "1922–1931.",
+            "creator": "Paul Landowski (sculptor), Heitor da Silva Costa (engineer), Albert Caquot (engineer).",
+            "materialsUsed": "Reinforced concrete, soapstone.",
+            "dimensions": "30 meters (98 feet) tall (excluding 8-meter pedestal); arms span 28 meters (92 feet)."
         },
         "MachuPicchu": {
             "name": "Machu Picchu",
             "location": "Machu Picchu, Peru",
             "annualVisitorsAverage": "1,500,000",
             "inaugurationDate": "c. 1450 AD",
-            "description": "Machu Picchu is an ancient Inca citadel situated high in the Andes Mountains in Peru, above the Urubamba River valley. Built in the 15th century and later abandoned, it’s renowned for its sophisticated dry-stone walls that fuse immense blocks without the use of mortar, intriguing buildings that play on astronomical alignments, and panoramic views. Its exact former use remains a mystery."
+            "description": "Machu Picchu is an ancient Inca citadel situated high in the Andes Mountains in Peru, above the Urubamba River valley. Built in the 15th century and later abandoned, it’s renowned for its sophisticated dry-stone walls that fuse immense blocks without the use of mortar, intriguing buildings that play on astronomical alignments, and panoramic views.",
+            "history": "Built around 1450 AD during the Inca Empire, it's believed to have been a royal estate or a sacred site. It was abandoned about a century later, possibly due to the Spanish Conquest, and remained unknown to the Western world until its rediscovery in 1911 by Hiram Bingham.",
+            "interestingFacts": [
+                "The Incas were master stoneworkers who fit stones together with incredible precision without mortar.",
+                "It's located in a cloud forest with high biodiversity.",
+                "The Intihuatana stone is thought to have been used as a solar clock or calendar."
+            ],
+            "architecturalStyle": "Inca architecture.",
+            "timePeriod": "c. 15th century AD.",
+            "creator": "Inca civilization, likely under the rule of Pachacuti.",
+            "materialsUsed": "Granite.",
+            "dimensions": "Covers an area of approximately 80 acres (32.5 hectares)."
         },
         "ChichénItzá": {
             "name": "Chichén Itzá",
             "location": "Yucatán, Mexico",
             "annualVisitorsAverage": "2,600,000",
             "inaugurationDate": "c. 600 AD",
-            "description": "Chichén Itzá was a large pre-Columbian city built by the Maya civilization located in present-day Tinúm Municipality, Yucatán State, Mexico. It was one of the largest Maya cities and likely to have been one of the great ones towards the end of the Terminal Classic period (c. 800–900 AD). The site exhibits a multitude of architectural styles, reminiscent of styles seen in central Mexico and of the Puuc and Chenes styles of the northern Maya lowlands."
+            "description": "Chichén Itzá was a large pre-Columbian city built by the Maya civilization located in present-day Tinúm Municipality, Yucatán State, Mexico. It was a major center in the Yucatán Peninsula, showing influences from various Maya groups and the Toltec culture.",
+            "history": "Founded around the 6th century AD, Chichén Itzá rose to prominence during the Terminal Classic period (c. 800–900 AD). It became a significant regional capital, integrating architectural styles from different cultures. The Kukulkan pyramid was likely built in the 12th century AD.",
+            "interestingFacts": [
+                "During equinoxes, the Kukulkan pyramid casts a shadow resembling a serpent descending its staircase.",
+                "Its Great Ball Court is the largest known in the Americas.",
+                "The city demonstrates advanced astronomical and mathematical knowledge in its design."
+            ],
+            "architecturalStyle": "Maya architecture with Toltec influences.",
+            "timePeriod": "c. 6th to 12th centuries AD.",
+            "creator": "Maya civilization, with later Toltec influences.",
+            "materialsUsed": "Limestone.",
+            "dimensions": "Covers an area of approximately 4 square miles (10 square kilometers)."
         },
         "Colosseum": {
             "name": "Colosseum",
             "location": "Rome, Italy",
             "annualVisitorsAverage": "7,600,000",
             "inaugurationDate": "80 AD",
-            "description": "The Colosseum is an oval amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum. It is the largest ancient amphitheatre ever built, and is still the largest standing amphitheatre in the world, despite its age. Construction began under the Emperor Vespasian in 72 AD and was completed by his son Titus in 80 AD. It was capable of holding an estimated 50,000 to 80,000 spectators."
+            "description": "The Colosseum is an oval amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum. It is the largest ancient amphitheatre ever built and could hold an estimated 50,000 to 80,000 spectators for gladiatorial contests and public spectacles.",
+            "history": "Construction began under Emperor Vespasian in 72 AD and was completed by his son Titus in 80 AD. It was used for various public entertainments for nearly 500 years. It suffered damage from earthquakes and was used as a source of building materials in later centuries.",
+            "interestingFacts": [
+                "It had a complex underground system called the hypogeum for animals and gladiators.",
+                "A large awning (velarium) could be used to shade the audience.",
+                "It was originally known as the Flavian Amphitheatre."
+            ],
+            "architecturalStyle": "Roman Imperial architecture.",
+            "timePeriod": "72–80 AD.",
+            "creator": "Commissioned by Emperor Vespasian, completed by Emperor Titus.",
+            "materialsUsed": "Travertine limestone, tufa, brick-faced concrete.",
+            "dimensions": "189 meters (620 feet) long, 156 meters (512 feet) wide, 48 meters (157 feet) high."
         },
         "Petra": {
             "name": "Petra",
             "location": "Ma'an Governorate, Jordan",
             "annualVisitorsAverage": "1,000,000",
             "inaugurationDate": "c. 4th century BC",
-            "description": "Petra is a historical and archaeological city in southern Jordan. The city is famous for its rock-cut architecture and water conduit system. Another name for Petra is the Rose City due to the color of the stone out of which it is carved. Established possibly as early as 312 BC as the capital city of the Nabataeans, it is a symbol of Jordan, as well as its most-visited tourist attraction."
+            "description": "Petra is a historical and archaeological city in southern Jordan, famous for its rock-cut architecture and intricate water conduit system. Known as the Rose City for the color of its stone, it was once a thriving trading center and the capital of the Nabataean kingdom.",
+            "history": "Established possibly as early as the 4th century BC by the Nabataeans, Petra became a vital hub for trade routes. It flourished until the Roman annexation in 106 AD and later declined, remaining largely unknown to the Western world until its rediscovery in 1812.",
+            "interestingFacts": [
+                "Its sophisticated water management system allowed for a significant population in a dry area.",
+                "Al-Khazneh (The Treasury) is one of its most iconic and well-preserved structures.",
+                "The city's architecture is carved directly into sandstone cliffs."
+            ],
+            "architecturalStyle": "Nabataean architecture with Hellenistic and Roman influences.",
+            "timePeriod": "c. 4th century BC to 1st century AD (peak Nabataean period).",
+            "creator": "Nabataean civilization.",
+            "materialsUsed": "Sandstone.",
+            "dimensions": "Covers a vast area with structures of varying sizes carved into the rock."
         },
         "TajMahal": {
             "name": "Taj Mahal",
             "location": "Agra, India",
             "annualVisitorsAverage": "7,000,000",
             "inaugurationDate": "1643 AD",
-            "description": "The Taj Mahal is an ivory-white marble mausoleum on the right bank of the Yamuna river in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor Shah Jahan (reigned 1628–1658) to house the tomb of his favorite wife, Mumtaz Mahal. It also houses the tomb of Shah Jahan himself. The tomb is the centerpiece of a 17-hectare (42-acre) complex, which includes a mosque and a guest house, and is set in formal gardens bounded on three sides by a crenellated wall."
+            "description": "The Taj Mahal is an ivory-white marble mausoleum on the right bank of the Yamuna river in Agra, India. Commissioned by the Mughal emperor Shah Jahan for his wife Mumtaz Mahal, it is a masterpiece of Mughal architecture and a symbol of eternal love.",
+            "history": "Emperor Shah Jahan commissioned the Taj Mahal in 1632 to house the tomb of his wife Mumtaz Mahal, who died in 1631. Construction took about 22 years and involved thousands of artisans. Shah Jahan himself was later entombed here.",
+            "interestingFacts": [
+                "Its color appears to change depending on the time of day and the light.",
+                "Legend says Shah Jahan planned to build a black marble counterpart across the river.",
+                "The intricate floral inlays are made with precious and semi-precious stones."
+            ],
+            "architecturalStyle": "Mughal architecture.",
+            "timePeriod": "1632–1643 AD.",
+            "creator": "Commissioned by Mughal emperor Shah Jahan.",
+            "materialsUsed": "White marble, precious and semi-precious stones.",
+            "dimensions": "Central dome is 35 meters (115 feet) high; the entire complex covers 42 acres (17 hectares)."
         }
-    },
-    "wondersSection": {
-        "curiosities": "Curiosities",
-        "location": "Location: ",
-        "annualVisitorsAverage": "Annual Visitors Average: ",
-        "inaugurationDate": "Inauguration Date: "
     }
 }
