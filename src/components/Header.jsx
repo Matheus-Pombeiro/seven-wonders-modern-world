@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 
+import { Link } from "react-router-dom";
+
 import LanguageSwitcher from "./LanguageSwitcher";
 import ThemeSwitcher from "./ThemeSwitcher";
 
@@ -45,19 +47,23 @@ const Header = () => {
             border-b border-orange-100 dark:border-neutral-900 shadow-sm"
         >
             {/* Logo */}
-            <figure
-                className="flex flew-row justify-between items-center gap-1"
+            <Link
+                to={"/"}
             >
-                <TiCompass {...setBtn} 
-                    {...setBtn}
-                    color={defaultIconColor}
-                />
-                <figcaption
-                    className="text-xl font-medium tracking-wider dark:text-white"
+                <figure
+                    className="flex flew-row justify-between items-center gap-1"
                 >
-                    7WMW
-                </figcaption>
-            </figure>
+                    <TiCompass {...setBtn}
+                        {...setBtn}
+                        color={defaultIconColor}
+                    />
+                    <figcaption
+                        className="text-xl font-medium tracking-wider dark:text-white"
+                    >
+                        7WMW
+                    </figcaption>
+                </figure>
+            </Link>
 
             {/* Buttons */}
             <div
