@@ -26,7 +26,8 @@ i18n
         },
         react: {
             wait: true
-        }
+        },
+        returnObjects: true // Enable the return of objects
     });
 
 export default i18n;
