@@ -2,65 +2,37 @@
     {
       "id": 1,
       "name": "The Great Wall of China",
-      "location": "China",
-      "imageUrl": "https://images.pexels.com/photos/19872/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "annualVisitorsAverage": 10000000,
-      "inaugurationDate": "7th century BC – 17th century AD (construction period)",
-      "description": "The Great Wall of China is a series of fortifications that were built across the historical northern borders of ancient Chinese states and Imperial China as protection against nomadic groups from the Eurasian Steppe. Several walls were being built as early as the 7th century BC, with later walls joined together to become bigger and stronger. It is the longest artificial structure in the world, with a total length of over 21,196 kilometers (13,171 miles)."
+      "imageUrl": "https://images.pexels.com/photos/19872/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "id": 2,
       "name": "Christ the Redeemer",
-      "location": "Rio de Janeiro, Brazil",
-      "imageUrl": "https://images.pexels.com/photos/24039440/pexels-photo-24039440/free-photo-of-pessoas-estatua-grupo-turma.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "annualVisitorsAverage": 2000000,
-      "inaugurationDate": "October 12, 1931",
-      "description": "Christ the Redeemer is an Art Deco statue of Jesus Christ in Rio de Janeiro, Brazil, created by French sculptor Paul Landowski and built by the Brazilian engineer Heitor da Silva Costa, in collaboration with the French engineer Albert Caquot. It is 30 metres (98 ft) tall, not including its 8-metre (26 ft) pedestal, and its arms stretch 28 metres (92 ft) wide. The statue weighs 635 metric tons (625 long, 700 short tons), and is located at the peak of the 700-metre (2,300 ft) Corcovado mountain in the Tijuca National Park overlooking the city."
+      "imageUrl": "https://images.pexels.com/photos/24039440/pexels-photo-24039440/free-photo-of-pessoas-estatua-grupo-turma.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "id": 3,
       "name": "Machu Picchu",
-      "location": "Machu Picchu, Peru",
-      "imageUrl": "https://images.pexels.com/photos/1730382/pexels-photo-1730382.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "annualVisitorsAverage": 1500000,
-      "inaugurationDate": "c. 1450 AD",
-      "description": "Machu Picchu is an ancient Inca citadel situated high in the Andes Mountains in Peru, above the Urubamba River valley. Built in the 15th century and later abandoned, it’s renowned for its sophisticated dry-stone walls that fuse immense blocks without the use of mortar, intriguing buildings that play on astronomical alignments, and panoramic views. Its exact former use remains a mystery."
+      "imageUrl": "https://images.pexels.com/photos/1730382/pexels-photo-1730382.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "id": 4,
       "name": "Chichén Itzá",
-      "location": "Yucatán, Mexico",
-      "imageUrl": "https://images.pexels.com/photos/31657160/pexels-photo-31657160/free-photo-of-piramide-kukulcan-3-chichen-itza.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "annualVisitorsAverage": 2600000,
-      "inaugurationDate": "c. 600 AD",
-      "description": "Chichén Itzá was a large pre-Columbian city built by the Maya civilization located in present-day Tinúm Municipality, Yucatán State, Mexico. It was one of the largest Maya cities and likely to have been one of the great ones towards the end of the Terminal Classic period (c. 800–900 AD). The site exhibits a multitude of architectural styles, reminiscent of styles seen in central Mexico and of the Puuc and Chenes styles of the northern Maya lowlands."
+      "imageUrl": "https://images.pexels.com/photos/31657160/pexels-photo-31657160/free-photo-of-piramide-kukulcan-3-chichen-itza.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "id": 5,
       "name": "Colosseum",
-      "location": "Rome, Italy",
-      "imageUrl": "https://images.pexels.com/photos/2286872/pexels-photo-2286872.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "annualVisitorsAverage": 7600000,
-      "inaugurationDate": "80 AD",
-      "description": "The Colosseum is an oval amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum. It is the largest ancient amphitheatre ever built, and is still the largest standing amphitheatre in the world, despite its age. Construction began under the Emperor Vespasian in 72 AD and was completed by his son Titus in 80 AD. It was capable of holding an estimated 50,000 to 80,000 spectators."
+      "imageUrl": "https://images.pexels.com/photos/2286872/pexels-photo-2286872.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "id": 6,
       "name": "Petra",
-      "location": "Ma'an Governorate, Jordan",
-      "imageUrl": "https://images.pexels.com/photos/18717331/pexels-photo-18717331/free-photo-of-ponto-de-referencia-ponto-historico-construcao-predio.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "annualVisitorsAverage": 1000000,
-      "inaugurationDate": "c. 4th century BC",
-      "description": "Petra is a historical and archaeological city in southern Jordan. The city is famous for its rock-cut architecture and water conduit system. Another name for Petra is the Rose City due to the color of the stone out of which it is carved. Established possibly as early as 312 BC as the capital city of the Nabataeans, it is a symbol of Jordan, as well as its most-visited tourist attraction."
+      "imageUrl": "https://images.pexels.com/photos/18717331/pexels-photo-18717331/free-photo-of-ponto-de-referencia-ponto-historico-construcao-predio.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "id": 7,
       "name": "Taj Mahal",
-      "location": "Agra, India",
-      "imageUrl": "https://images.pexels.com/photos/1603650/pexels-photo-1603650.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "annualVisitorsAverage": 7000000,
-      "inaugurationDate": "1643 AD",
-      "description": "The Taj Mahal is an ivory-white marble mausoleum on the right bank of the Yamuna river in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor Shah Jahan (reigned 1628–1658) to house the tomb of his favorite wife, Mumtaz Mahal. It also houses the tomb of Shah Jahan himself. The tomb is the centerpiece of a 17-hectare (42-acre) complex, which includes a mosque and a guest house, and is set in formal gardens bounded on three sides by a crenellated wall."
+      "imageUrl": "https://images.pexels.com/photos/1603650/pexels-photo-1603650.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     }
   ]
   
